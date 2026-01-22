@@ -16,7 +16,6 @@ const PortfolioSection = () => {
         </div>
 
         {/* Portfolio Links */}
-        {/* Cambié md:grid-cols-2 a lg:grid-cols-3 para que los 3 queden en fila en desktop */}
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           
           {/* LinkedIn */}
@@ -40,7 +39,7 @@ const PortfolioSection = () => {
 
           {/* Instagram */}
           <a
-            href="https://www.instagram.com/TU_USUARIO" // Reemplaza con tu usuario real
+            href="https://www.instagram.com/andriely.yml"
             target="_blank"
             rel="noopener noreferrer"
             className="group p-8 rounded-2xl border border-border bg-card hover:border-foreground/30 transition shadow-sm"
